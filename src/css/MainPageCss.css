@@ -1,0 +1,58 @@
+.HeaderBar {
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	width: 100%;
+	overflow: hidden;
+	height: 80px;
+	border-bottom: 1px solid;
+	border-bottom-color:#d3d3d3;
+
+}
+.HeaderBar h1 {
+	font-size:30px;
+	font-family: 'Kaushan Script', cursive;
+	margin-left:20px;
+}
+
+.IconTray {
+	display: flex;
+	width:20%;
+	flex-direction: row;
+	margin-left:800px;
+	padding-top:10px;
+	
+	justify-content:space-around;
+}
+
+.IconTray h2:hover{
+	color:#d3d3d3;
+}
+
+.Layout {
+	display: flex;
+	justify-content:center;
+}
+
+.StoryBar {
+	width:700px;
+	margin:80px;
+	height:100px;
+	border:1px solid;
+}
+
+.BigCard {
+	display: flex;
+	width:500px;
+	height:600px;
+	border:1px solid;
+	border-color:#d3d3d3;
+	margin:70px;
+}
+.PostLayout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*padding-left:150px;*/
+	
+}

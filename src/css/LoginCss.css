@@ -1,0 +1,58 @@
+.LoginPage {
+	display:flex;
+	justify-content:center;
+
+}
+
+.LoginForm {
+	width:600px;
+	height:600px;
+	background-color:#f9f9f9;
+	margin:100px;
+}
+.LoginForm h1 {
+	font-size:60px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.LoginForm h2 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.UsernameContainer {
+	display: flex;
+	flex-direction: row;
+	height:50px;
+	justify-content:center;
+	align-items: center;
+	margin-bottom:10px;
+}
+.UsernameContainer a {
+	font-size:30px;
+}
+
+.PasswordContainer {
+	display: flex;
+	flex-direction: row;
+	height:50px;
+	justify-content:center;
+	align-items: center;
+}
+.PasswordContainer a {
+	font-size:30px;
+}
+
+.SubmitButton {
+	width:50%;
+	height:50px;
+	background-color: blue;
+	color:white;
+	border-width:0px;
+	border-radius:15px;
+	margin-top:80px;
+	justify-content:center;
+	/*margin:80px;*/
+	/*padding-left:20px;*/
+	align-items:center;
+}
