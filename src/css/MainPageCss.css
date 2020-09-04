@@ -49,6 +49,11 @@
 	border-color:#d3d3d3;
 	margin:70px;
 }
+
+.CardTopBar {
+	
+}
+
 .PostLayout {
 	display: flex;
 	flex-direction: column;

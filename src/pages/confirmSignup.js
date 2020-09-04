@@ -13,50 +13,34 @@ import Signup from './SignupPage';
 
 
 
-
-class Login extends React.Component {
+class ConfirmSignup extends React.Component {
   constructor(props) {
     super(props);
     
-
+  
 }
 
-
-
- 
   render(){
 
-  
   
     return (
            <div>
     <div className="LoginPage">
       <div className="LoginForm"> 
         <h1>Social</h1>
-        <h2>Sign In</h2>
+        <h2>Confirm SignUp</h2>
         <div className="InputFieldContainer">
 
-            <div className="UsernameContainer">
-              <a><AiOutlineUser /></a>
-              <div className="InputField">
-                  <input 
-                  style={{width:290, height:47, borderWidth:0}} 
-                  placeholder="Username" 
-                  name = "username"
-                  
-                  onChange = {this.props.onChange}
-                  />
-              </div>
-            </div>
+         
 
             <div className="PasswordContainer">
               <a><RiLockPasswordLine /></a>
               <div className="InputField">
                   <input 
                     style={{width:290, height:47, borderWidth:0}} 
-                    type='password'
+                    type='text'
                     placeholder="Password"
-                    name="password"
+                    name="authCode"
                     
                     onChange={this.props.onChange}
                     />
@@ -69,26 +53,26 @@ class Login extends React.Component {
 
         </div>
 
-        <button class="SubmitButton" type="submit"  onClick={this.props.signIn}>
-        <p>SIGN IN</p>
+        <button class="SubmitButton" type="submit"  onClick={this.props.confirmSignUp}>
+        <p>CONFIRM SIGN UP</p>
         </button>
 
         
           <div>
 
-          <p>Don't have an account <a style={{color: 'blue'}} href="/Signup" onClick={this.props.signUp} >Sign up</a> </p>
+          <p>Don't have an account <a style={{color: 'blue'}} href="Login" >Sign up</a> </p>
           </div>
 
       </div>
     </div>
 
-     </div> 
+     </div>
       );
-  }
+  
 
-
+}
 };
-export default Login;
+export default ConfirmSignup;
 
 
 

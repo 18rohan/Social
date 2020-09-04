@@ -40,7 +40,7 @@ const MainPage = (props) => {
           <h2><IoMdPaperPlane /></h2>
           <h2><RiCompassDiscoverLine /></h2>
           <h2><AiOutlineHeart /></h2>
-          <h2 ><ImSwitch onClick={handleLogout}/></h2>
+          <h2 ><ImSwitch onClick={props.logout}/></h2>
           
         </div>
 
