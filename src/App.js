@@ -40,7 +40,7 @@ const App = () =>{
       const user = await Auth.currentAuthenticatedUser();
       console.log('user', user);
       updateUser(user);
-
+      setFormState(()=>({...formState, formType:'signedIn'}))
     }catch (err){
       // updateUser(null)
     }

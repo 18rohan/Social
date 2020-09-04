@@ -53,7 +53,7 @@ const MainPage = (props) => {
           <p>Stories...</p>
           </div>
           <div className="PostLayout">
-          <BigCard />
+          <BigCard image={"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201510/bmw_story_647_101415024112.jpg"} />
           <BigCard />
           <BigCard />
           </div>
