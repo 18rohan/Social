@@ -17,20 +17,21 @@ const initialFormState = {
 const App = () =>{
   const [formState, setFormState] = useState(initialFormState);
   const [user, updateUser] = useState(null)
-  // useEffect(()=>{
-  //   checkUser() 
-  //   setAuthListener()
-  // })
+  useEffect(()=>{
+    checkUser() 
+    setAuthListener()
+  },[])
   const setAuthListener = async()=>{
     Hub.listen('auth', (data) => {
   switch (data.payload.event) {
-    case 'signIn':
-        console.log('user signed in');
-        break;
+  
     case 'signOut':
         console.log('user signed out data', data);
         setFormState(()=>({...formState, formType:'signUp'}))
-        break;   
+        break;  
+
+    default:
+        break; 
   }
 });
   }
