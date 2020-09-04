@@ -76,7 +76,7 @@ class Login extends React.Component {
         
           <div>
 
-          <p>Don't have an account <a style={{color: 'blue'}} href="/Signup" onClick={this.props.signUp} >Sign up</a> </p>
+          <p>Don't have an account <a style={{color: 'blue'}}  onClick={this.props.signUp} >Sign up</a> </p>
           </div>
 
       </div>

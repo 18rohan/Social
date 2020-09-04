@@ -33,7 +33,7 @@ const MainPage = (props) => {
     <div className="App">
       
       <div className="HeaderBar">
-        <h1>instagram</h1>
+        <h1>Social</h1>
         
         <div className="IconTray">
           <h2><AiOutlineHome/></h2>

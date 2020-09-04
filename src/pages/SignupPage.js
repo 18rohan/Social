@@ -79,7 +79,7 @@ const SignUp = (props) => {
         
           <div>
 
-          <p>Already have an account? <a style={{color: 'blue'}} onClick={props.signIn} >Sign in</a> </p>
+          <p>Already have an account? <a style={{color: 'blue'}} onClick={props.signIn}  >Sign in</a> </p>
           </div>
 
       </div>
